@@ -1,3 +1,110 @@
-h1{
-    color: red;
+/* Body background */
+.bodyclass {
+  background-color: #1F1F1F;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar-nav {
+  margin-top: 25px;
+}
+
+.navbar-nav .nav-link {
+  font-family: 'Poppins', sans-serif;
+  color: #b8b1b1 !important;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #ffffff !important;
+}
+
+.navbar-brand {
+  font-family: 'Great Vibes', cursive;
+  font-size: 28px;
+  color: #d6cfcf !important;
+}
+
+/* Hero Section */
+.hero-section {
+  min-height: 90vh; /* almost full screen */
+  display: flex;
+  align-items: center;
+}
+
+.hero-subtitle {
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #ccc;
+}
+
+.hero-title {
+  font-size: 48px;
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.hero-title .highlight {
+  color: #fff;
+}
+
+.hero-role {
+  font-size: 18px;
+  font-weight: 400;
+  color: #aaa;
+}
+
+/* Gradient Button */
+.btn-gradient {
+  background: linear-gradient(to right, #00d2ff, #3a7bd5);
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+.btn-gradient:hover {
+  opacity: 0.9;
+}
+
+/* Hero Image */
+.hero-img {
+  max-width: 150px; /* reduce max size */
+  width: 60%;      /* responsive */
+  border-radius: 15px;
+}
+
+.about-section {
+  background-color: #1f1f1f; /* dark background like hero */
+}
+
+.about-section h2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.about-img {
+  max-width: 250px; /* control image size */
+
+  padding: 5px;
+}
+
+.row{
+    color: white;
+}
+.para{
+    color: white;
+}
+.details{
+    font-size: larger;
+    text-align: left;
+}
+.firstcol
+{
+    align-content: left;
 }
